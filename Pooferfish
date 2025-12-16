@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Cat Meow</title>
+  <title>Poofer Fish</title>
 
   <style>
     body {
@@ -46,15 +46,15 @@
   <div class="wrap">
     <p class="title">Tap the poofer fish Michael</p>
 
-    <img id="fish" src="cat.jpg" alt="Poofer Fish" />
+    <img id="fish" src="Poofer fish.jpg" alt="Poofer Fish" />
 
     <p id="counter">Taps: 0</p>
 
-    <audio id="meow" src="meow.mp3" preload="auto"></audio>
+    <audio id="glubglub" src="glubglub.mp3" preload="auto"></audio>
   </div>
 
   <script>
-    const audio = document.getElementById("meow");
+    const audio = document.getElementById("glubglub");
     const fish = document.getElementById("fish");
     const counterEl = document.getElementById("counter");
 
